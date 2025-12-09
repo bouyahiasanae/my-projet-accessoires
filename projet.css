@@ -31,7 +31,6 @@ nav {
     position: relative;
     top: 0;
     left: 0;
-    z-index: 80%;
     margin-bottom: 0;
 }
 .nav__content{
@@ -339,7 +338,7 @@ img {
     ul {
         position: absolute;
         width: 100%;
-        height: calc(100vh - 85px);
+        height: calc(100vh - 200px);
         left: -100%;
         top: 80px;
         background-color: var(--extra-light);
@@ -396,7 +395,11 @@ img {
         padding: 1rem;
         margin-top: 2rem;
     }
-
+    .section__container1 h2 {
+        font-size: 1.6rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
    
     .services h3 {
         font-size: 1.6rem;
@@ -424,8 +427,8 @@ img {
  
     .nos-produits h4 {
         font-size: 1.6rem;
-        margin-bottom: 2rem;
         margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 
     .product-grid {
