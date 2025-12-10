@@ -362,12 +362,21 @@ img {
     .section__container {
         padding: 3rem 1rem;
         text-align: center;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
         gap: 1rem;
         margin-bottom: 3rem;
     }
+     .image img {
+        order: -1;
+        width: 100%;
+        margin-bottom: 1rem; 
+    }
 
-    .content {
+
+    .section__container .content {
+        width: 100%;
+        text-align: center;
         margin-top: 3rem;
         gap: 1rem;
     }
@@ -415,7 +424,7 @@ img {
 
     .card {
         width: 80%;
-        height: auto;
+        height: 300px;
         padding: 15px;
 
     }
@@ -439,12 +448,12 @@ img {
 
     .product-card {
         width: 80%;
-        height: auto;
+        height: 300px;
         padding: 0.8rem;
     }
 
     .product-card img {
-        height: auto;
+        height: 200px;
     }
 
    
